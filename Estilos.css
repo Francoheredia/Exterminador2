@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contprincipal{
+    display: flex;
+}
+
+.imagencontenedor{
+    background-image: url(/Img/definitiva.jpg);
+    width: 50%;
+    height: 690px;
+}
+
+.logo img{
+    margin-left: 85px;
+    margin-top: 55px;
+}
+
+.menucontendor{
+    background-color:  #52575d;
+    max-width: 54%;
+    display: flex;
+    height: auto;
+    padding: 0;
+    position: relative;
+    
+    
+}
+
+.texto1{
+    text-align: center;
+    margin-left: 100px;
+    align-self: center;
+    margin-right: 20px;
+    width:2300px;
+    
+    
+    
+    
+    
+}
+
+.texto1 h1{
+    font-size: 70px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(31, 31, 31);
+    font-weight: bold;
+
+}
+
+.texto1 p{
+    color: rgb(121, 121, 121);
+    text-align: left;
+}
+
+.burger{
+    position: absolute;
+    background-color:  #52575d;    
+}
+
+.footer1 p{
+    margin-left: 20px;
+    font-weight: 600;
+    color: rgb(31, 31, 31);
+}
+
+.imagenperfil img{
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-left: 250px;
+    
+}
+
+.imagenperfil img:hover{
+    filter: grayscale(80%);
+    transition: all 1s;
+
+}
+#menudes ul{
+    list-style: none;
+}
+
+#menudes ul li{
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+#menudes ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    
+
+}
+
+#menudes ul li a:hover{
+    color: #818181;
+    
+    transition: all 0.25s;
+}
+
+.icons i{
+    font-size: 50px;
+    color:  white;
+    margin: 40px;
+}
+
+.icons i:hover{
+    color: #818181;
+    transition: all 0.25s;
+}
+.redes{
+    display: flex;
+    margin: 10px;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-bars{
+    font-size: 35px;
+    margin-left: 15px;
+    padding: 5px;
+    padding-bottom: 15px;
+    color: #818181;    
+    transition: 500ms;
+    transition-delay: 200ms;
+    width: 40px;
+}
+
+.fa-bars:hover{
+    color: #575757;
+    transition: all 0.25s;
+}
+#btn-menu{
+    transition: 700ms;
+    transition-delay: 200ms;
+
+}
+
+#btn-menu:hover + #menudes {
+    display: block;
+    
+}
+
+#menudes{
+    display: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#menudes:hover {
+    display: block;
+}
+
+#list{
+    list-style-type: none;
+    margin: 0%;
+    padding: 2%;
+    text-align: center;
+}
